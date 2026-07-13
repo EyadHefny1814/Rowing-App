@@ -1,0 +1,11 @@
+Flutter Life cycle
+
+
+1. create State
+2.init state
+3.didchangeDependencies
+4.build
+5.set state
+6.didupdateWidget
+7.deactivate
+8.dispose
