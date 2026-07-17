@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'TopCurveClipper.dart';
+import 'package:go_router/go_router.dart';
 
 class login2Page extends StatefulWidget {
   const login2Page({super.key});
@@ -136,7 +137,9 @@ SizedBox(
   width: double.infinity,
   height: 55,
   child: ElevatedButton(
-    onPressed: () {},
+    onPressed: () {
+      context.go('/coach_dashboard');
+    },
     style: ElevatedButton.styleFrom(
       backgroundColor: const Color(0xFF1976D2),
       shape: RoundedRectangleBorder(
